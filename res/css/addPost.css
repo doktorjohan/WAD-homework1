@@ -63,12 +63,12 @@ textarea {
 }
 .chooseButton {
     margin-left: 5%;
-    background-color: darkgrey;
-    color: white;
     border-color: grey;
     border-width: thin;
     width: 100px;
     height: 20px;
+    color: transparent;
+    background: transparent;
 }
 table td{
     vertical-align:top;
