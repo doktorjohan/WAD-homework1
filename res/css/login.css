@@ -67,10 +67,6 @@ div div {
     color: #19abee;
 }
 
-textarea {
-    resize: none;
-}
-
 .loginButton {
     background-color: darkblue;
     color: white;
