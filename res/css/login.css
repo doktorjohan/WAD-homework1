@@ -71,6 +71,7 @@ textarea {
     width: 100px;
     height: 20px;
     position: center;
+    margin: auto;
 
 }
 div form {
@@ -78,7 +79,7 @@ div form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0% auto;
+    margin: auto;
 }
 form input {
     margin: 2px;
