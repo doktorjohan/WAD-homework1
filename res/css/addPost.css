@@ -87,7 +87,7 @@ table > tr { /* Child Selector */
 
 table + button { /*  Adjacent Sibling Selector */
     margin-top: 10px;
-    background-color: darkblue;
+    background-color: #4267B2;
     color: white;
     border-color: white;
     border-width: thin;
