@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="res/css/login.css">
 </head>
 <body>
-
+<!-- Navbar -->
+<header class="header">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <a href="login.html" id="logo"><img src="res/images/logo.png" width="50" height="50" alt="logo"></a>
+</header>
+<!-- Log in -->
+<!-- A user should not be allowed to submit the login form content, if she/he did not
+fill in both fields (e.g., Email and Username). Peab mingi formi tegema vist, aga aeg sai otsa-->
+<div class="login">
+    <div><b>Welcome to PostIt</b></div>
+    <div><a class="link" href="">Create an account</a></div>
+    <div>or</div>
+    <div>Please log in</div>
+    <div><textarea placeholder="Email" rows="1" cols="10" required></textarea></div>
+    <div><textarea placeholder="Password" rows="1" cols="10" required></textarea></div>
+    <div><button class="loginButton"><a href="index.html">Log in</a></button></div>
+    <div><a class="link" href="">Forgot password</a></div>
+</div>
 </body>
 </html>
