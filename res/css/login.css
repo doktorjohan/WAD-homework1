@@ -70,4 +70,16 @@ textarea {
     border-width: thin;
     width: 100px;
     height: 20px;
+    position: center;
+
+}
+div form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% auto;
+}
+form input {
+    margin: 2px;
 }
