@@ -46,9 +46,9 @@ a {
 /* Add post container */
 
 .addPost{
-    position: relative;
+    position: static;
     border-radius: 10px;
-    padding: 4%;
+    padding: 2%;
     margin-top: 5%;
     margin-left: 30%;
     margin-bottom: 50%;
@@ -61,6 +61,7 @@ a {
 }
 textarea {
     margin-left: 5%;
+    resize: none;
 }
 
 .chooseButton {
@@ -75,18 +76,16 @@ textarea {
 table td{
     vertical-align:top;
     text-align: left;
-
-
 }
 table tr {
     border-spacing: 5px;
 }
-.createPost {
-    margin-top: 10%;
+.createPostButton {
+    margin-top: 10px;
     background-color: darkblue;
     color: white;
+    border-color: darkblue;
+    border-width: thin;
     width: 100px;
     height: 20px;
-    border-width: thin;
-    border-color: darkblue;
 }
