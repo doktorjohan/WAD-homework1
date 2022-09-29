@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -21,10 +22,12 @@ ul {
     margin-top: 5px;
     display: flex;
 }
+
 a {
     color: #C2F8CB;
     text-decoration: none;
 }
+
 .nav a {
     padding: 10px 15px;
     text-transform: uppercase;
@@ -34,7 +37,7 @@ a {
     font-size: .99em;
 }
 
-.nav a:hover {
+.nav a:hover { /* Pseudo-class */
     background-color: #957186;
     border-radius: 10px;
 }
@@ -45,23 +48,25 @@ a {
 
 /* Add post container */
 
-.addPost{
+.addPost {
     position: center;
     border-radius: 10px;
     padding: 2%;
     margin: 5% auto;
     width: fit-content;
-    background-color: powderblue;
+    background-color: #9699A1FF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 textarea {
     margin-left: 5%;
     resize: none;
 }
-.chooseButton {
+
+#myFile { /* ID selector */
     margin-left: 5%;
     border-color: grey;
     border-width: thin;
@@ -70,14 +75,17 @@ textarea {
     color: transparent;
     background: transparent;
 }
-table td{
-    vertical-align:top;
+
+table td { /*Descendant Selector*/
+    vertical-align: top;
     text-align: left;
 }
-table tr {
+
+table > tr { /* Child Selector */
     border-spacing: 5px;
 }
-.createPostButton {
+
+table + button { /*  Adjacent Sibling Selector */
     margin-top: 10px;
     background-color: darkblue;
     color: white;

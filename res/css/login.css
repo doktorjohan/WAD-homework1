@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -21,10 +22,12 @@ ul {
     margin-top: 5px;
     display: flex;
 }
+
 a {
     color: #C2F8CB;
     text-decoration: none;
 }
+
 .nav a {
     padding: 10px 15px;
     text-transform: uppercase;
@@ -42,27 +45,32 @@ a {
 #logo {
     margin: 5px;
 }
+
 /* Log in */
 .login {
     position: center;
     border-radius: 10px;
-    background-color: powderblue;
+    background-color: #9699a1;
     width: fit-content;
     margin: 5% auto;
     padding: 2%;
 }
+
 div div {
     position: relative;
     margin: 2% auto;
     display: flex;
     justify-content: center;
 }
-.link{
+
+.link {
     color: #19abee;
 }
+
 textarea {
     resize: none;
 }
+
 .loginButton {
     background-color: darkblue;
     color: white;
@@ -74,6 +82,7 @@ textarea {
     margin: auto;
 
 }
+
 div form {
     position: relative;
     display: flex;
@@ -81,6 +90,7 @@ div form {
     justify-content: center;
     margin: auto;
 }
+
 form input {
     margin: 2px;
 }
