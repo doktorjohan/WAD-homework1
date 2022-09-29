@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Add new post</title>
@@ -8,11 +8,27 @@
 </head>
 <body>
 <!-- Navbar -->
-    <header class="header">
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-        </ul>
-        <a href="login.html" id="logo"><img src="res/images/logo.png" width="50" height="50" alt="logo"></a>
-    </header>
+<header class="header">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <a href="login.html" id="logo"><img src="res/images/logo.png" width="50" height="50" alt="logo"></a>
+</header>
+
+<!-- Add post container -->
+<div class="addPost">
+        <table>
+            <tr>
+                <td>Post body</td>
+                <td><textarea placeholder="textarea" rows="5" cols="13"></textarea></td>
+            </tr>
+        <tr>
+            <td>Select file</td>
+            <td><button class="chooseButton">Choose File</button></td>
+        </tr>
+        </table>
+        <button class="createPost">Create post</button>
+</div>
+
 </body>
 </html>

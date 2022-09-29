@@ -1,3 +1,4 @@
+/* Navbar */
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
@@ -40,4 +41,52 @@ a {
 
 #logo {
     margin: 5px;
+}
+
+/* Add post container */
+
+.addPost{
+    position: relative;
+    border-radius: 10px;
+    padding: 4%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 50%;
+    width: 35%;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+textarea {
+    margin-left: 5%;
+}
+
+.chooseButton {
+    margin-left: 5%;
+    background-color: darkgrey;
+    color: white;
+    border-color: grey;
+    border-width: thin;
+    width: 100px;
+    height: 20px;
+}
+table td{
+    vertical-align:top;
+    text-align: left;
+
+
+}
+table tr {
+    border-spacing: 5px;
+}
+.createPost {
+    margin-top: 10%;
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    height: 20px;
+    border-width: thin;
+    border-color: darkblue;
 }
