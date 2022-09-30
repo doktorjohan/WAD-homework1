@@ -17,19 +17,22 @@
 
 <!-- Add post container -->
 <div class="addPost">
-    <table>
-        <tr>
-            <td>Post body</td>
-            <td><textarea placeholder="textarea" rows="5" cols="13"></textarea></td>
-        </tr>
-        <tr>
-            <td>Select file</td>
-            <td>
-                <input type="file" id="myFile" name="filename">
-            </td>
-        </tr>
-    </table>
-    <button><a href="index.html">Create post</a></button>
+    <form action="index.html" method="POST">
+        <table>
+            <tr>
+                <td>Post body</td> <!-- Should be required -->
+                <td><textarea placeholder="textarea" rows="5" cols="13" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Select file</td>
+                <td>
+                    <input type="file" id="myFile" name="filename">
+                </td>
+            </tr>
+        </table>
+        <!-- <button><a href="index.html">Create post</a></button> -->
+        <input class="loginButton" type="submit" value="Create post">
+    </form>
 </div>
 
 </body>

@@ -85,12 +85,15 @@ table > tr { /* Child Selector */
     border-spacing: 5px;
 }
 
-table + button { /*  Adjacent Sibling Selector */
-    margin-top: 10px;
+table + input { /*  Adjacent Sibling Selector */
+    display: flex;
     background-color: #4267B2;
     color: white;
     border-color: white;
     border-width: thin;
     width: 100px;
     height: 20px;
+    position: center;
+    margin: 10px auto;
+    justify-content: center;
 }
