@@ -112,6 +112,9 @@ a {
     width: auto;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
 }
+p ~ span {
+    color: red;
+  }
 
 /* footer */
 footer {
